@@ -1,0 +1,170 @@
+
+#imagem-fundo {
+  width: 100vw;
+  height: 100vh;
+  background: url('../img/computer.jpg');
+  background-size: cover;
+  position: fixed;
+}
+
+body {
+  font-family: 'Poppins';
+  margin: 0;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+#menu {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  background-color: #ff85a4;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.containerDois {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  margin: auto;
+}
+
+.containerTres {
+  width: 50%;
+  margin: auto;
+}
+
+#dados {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 100px;
+  padding: 10px;
+}
+
+#perfil-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.meu-paragrafo {
+  text-align: center;
+}
+
+.img-perfil {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.card-padding {
+  display: flex;
+  justify-content: center;
+  padding-right: 50px;
+}
+
+#footer {
+  text-align: center;
+  background-color:#bf5781;
+  position:fixed;
+  bottom:0;
+  width:100%;
+}
+
+#informacoes-curriculo {
+  display: flex;
+  flex-direction: column;
+  border: dotted #bf5781 2px;
+  text-align: center;
+}
+
+#contato {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  height: 0;
+  width: 0;
+
+}
+
+.btn {
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 7px 50px; 
+  font-weight: 700;
+  color: #000;
+  text-decoration: none;
+  user-select: none;
+} 
+
+h3 {
+  color: #503256;
+  margin: 5px;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 40px;
+  text-align: center;
+  margin: 5px;
+}
+
+h4 {
+  color:#503256;
+  margin: 20px;
+}
+
+.titulo-principal {
+  margin: 20px;
+}
+
+span {
+  text-align: justify;
+}
+
+.meu-texto {
+  text-align: center;
+}
+
+.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.meu-link {
+  color: red
+}
+
+ .espaco-palavras {
+  text-align: justify;
+} 
